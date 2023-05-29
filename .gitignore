@@ -1,0 +1,10 @@
+.DS_Store
+/.build
+/Packages
+/*.xcodeproj
+.ctags
+.git
+Sources/
+Tests/
+Package.swift
+goorm.manifest
