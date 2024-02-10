@@ -1,4 +1,4 @@
-let input = readLine()!.split(separator: " ").map { Int($0)! }
+let input = readLine()!._split(separator: " ").map { Int($0)! }
 let hour = input[0], min = input[1]
 let addTime = Int(readLine()!)!
 

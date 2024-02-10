@@ -1,4 +1,4 @@
-let input = readLine()!.split(separator: " ").map{Int($0)!}
+let input = readLine()!._split(separator: " ").map{Int($0)!}
 var h = input[0]
 var m = input[1]
 
@@ -21,7 +21,7 @@ if m - 45 >= 0 {
 
 // 2024.01.28 다른 풀이 (결과 : 코드 길이와 시간이 단축됨)
 
-let input = readLine()!.split(separator: " ").map{Int($0)!}
+let input = readLine()!._split(separator: " ").map{Int($0)!}
 var h = input[0]
 var m = input[1]
 
